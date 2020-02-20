@@ -1,10 +1,8 @@
 #!/bin/bash
 
-#!/bin/bash
-
 gawk -F "\t" '
 NR>1 {
-	arr[$13]+=$NF;
+	arr[$13]+=$21;
 }
  
 END { PROCINFO["sorted_in"] = "@val_num_asc"
@@ -16,7 +14,7 @@ END { PROCINFO["sorted_in"] = "@val_num_asc"
 gawk -F "\t" '
 NR>1 {
 	if($13 == "Central") {
-		arr[$11]+=$NF;
+		arr[$11]+=$21;
 	}
 }
  
@@ -30,7 +28,7 @@ END { PROCINFO["sorted_in"] = "@val_num_asc"
 gawk -F "\t" '
 NR>1 {
 	if($11 == "Texas" || $11 == "Illinois") {
-		arr[$17]+=$NF;
+		arr[$17]+=$21;
 	}
 }
  

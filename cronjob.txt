@@ -1,0 +1,2 @@
+5 6/8 * * 1-5,7 /bin/bash /home/hipzi/soal3.sh
+

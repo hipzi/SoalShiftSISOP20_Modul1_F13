@@ -1,0 +1,420 @@
+--2020-02-20 07:11:01--  https://loremflickr.com/320/240/cat
+Resolving loremflickr.com (loremflickr.com)... 104.24.116.43, 104.24.117.43, 2606:4700:3033::6818:752b, ...
+Connecting to loremflickr.com (loremflickr.com)|104.24.116.43|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /cache/resized/65535_49431444442_904711a18f_n_320_240_nofilter.jpg [following]
+--2020-02-20 07:11:02--  https://loremflickr.com/cache/resized/65535_49431444442_904711a18f_n_320_240_nofilter.jpg
+Reusing existing connection to loremflickr.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 24750 (24K) [image/jpeg]
+Saving to: ‘pdkt_kusuma’
+
+     0K .......... .......... ....                            100% 7,17M=0,003s
+
+2020-02-20 07:11:02 (7,17 MB/s) - ‘pdkt_kusuma’ saved [24750/24750]
+
+--2020-02-20 07:12:01--  https://loremflickr.com/320/240/cat
+Resolving loremflickr.com (loremflickr.com)... 104.24.117.43, 104.24.116.43, 2606:4700:3033::6818:752b, ...
+Connecting to loremflickr.com (loremflickr.com)|104.24.117.43|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /cache/resized/65535_49282904118_5e0d6ca52a_n_320_240_nofilter.jpg [following]
+--2020-02-20 07:12:02--  https://loremflickr.com/cache/resized/65535_49282904118_5e0d6ca52a_n_320_240_nofilter.jpg
+Reusing existing connection to loremflickr.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 16701 (16K) [image/jpeg]
+Saving to: ‘pdkt_kusuma_1’
+
+     0K .......... ......                                     100% 53,2M=0s
+
+2020-02-20 07:12:02 (53,2 MB/s) - ‘pdkt_kusuma_1’ saved [16701/16701]
+
+--2020-02-20 07:13:01--  https://loremflickr.com/320/240/cat
+Resolving loremflickr.com (loremflickr.com)... 104.24.116.43, 104.24.117.43, 2606:4700:3033::6818:752b, ...
+Connecting to loremflickr.com (loremflickr.com)|104.24.116.43|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /cache/resized/65535_49306121857_6c617f77d3_n_320_240_nofilter.jpg [following]
+--2020-02-20 07:13:01--  https://loremflickr.com/cache/resized/65535_49306121857_6c617f77d3_n_320_240_nofilter.jpg
+Reusing existing connection to loremflickr.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 12424 (12K) [image/jpeg]
+Saving to: ‘pdkt_kusuma_2’
+
+     0K .......... ..                                         100% 12,7M=0,001s
+
+2020-02-20 07:13:01 (12,7 MB/s) - ‘pdkt_kusuma_2’ saved [12424/12424]
+
+--2020-02-20 07:14:01--  https://loremflickr.com/320/240/cat
+Resolving loremflickr.com (loremflickr.com)... 104.24.116.43, 104.24.117.43, 2606:4700:3033::6818:752b, ...
+Connecting to loremflickr.com (loremflickr.com)|104.24.116.43|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /cache/resized/65535_49327569018_0c852105d4_320_240_nofilter.jpg [following]
+--2020-02-20 07:14:03--  https://loremflickr.com/cache/resized/65535_49327569018_0c852105d4_320_240_nofilter.jpg
+Reusing existing connection to loremflickr.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 15219 (15K) [image/jpeg]
+Saving to: ‘pdkt_kusuma_3’
+
+     0K .......... ....                                       100% 10,2M=0,001s
+
+2020-02-20 07:14:04 (10,2 MB/s) - ‘pdkt_kusuma_3’ saved [15219/15219]
+
+--2020-02-20 07:15:01--  https://loremflickr.com/320/240/cat
+Resolving loremflickr.com (loremflickr.com)... 104.24.116.43, 104.24.117.43, 2606:4700:3033::6818:752b, ...
+Connecting to loremflickr.com (loremflickr.com)|104.24.116.43|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /cache/resized/65535_49269758503_ee34210517_n_320_240_nofilter.jpg [following]
+--2020-02-20 07:15:01--  https://loremflickr.com/cache/resized/65535_49269758503_ee34210517_n_320_240_nofilter.jpg
+Reusing existing connection to loremflickr.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 28962 (28K) [image/jpeg]
+Saving to: ‘pdkt_kusuma_4’
+
+     0K .......... .......... ........                        100% 6,67M=0,004s
+
+2020-02-20 07:15:01 (6,67 MB/s) - ‘pdkt_kusuma_4’ saved [28962/28962]
+
+--2020-02-20 07:16:01--  https://loremflickr.com/320/240/cat
+Resolving loremflickr.com (loremflickr.com)... 104.24.116.43, 104.24.117.43, 2606:4700:3037::6818:742b, ...
+Connecting to loremflickr.com (loremflickr.com)|104.24.116.43|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /cache/resized/65535_49306121857_6c617f77d3_n_320_240_nofilter.jpg [following]
+--2020-02-20 07:16:03--  https://loremflickr.com/cache/resized/65535_49306121857_6c617f77d3_n_320_240_nofilter.jpg
+Reusing existing connection to loremflickr.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 12424 (12K) [image/jpeg]
+Saving to: ‘pdkt_kusuma_5’
+
+     0K .......... ..                                         100% 8,31M=0,001s
+
+2020-02-20 07:16:03 (8,31 MB/s) - ‘pdkt_kusuma_5’ saved [12424/12424]
+
+--2020-02-20 07:17:01--  https://loremflickr.com/320/240/cat
+Resolving loremflickr.com (loremflickr.com)... 104.24.117.43, 104.24.116.43, 2606:4700:3033::6818:752b, ...
+Connecting to loremflickr.com (loremflickr.com)|104.24.117.43|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /cache/resized/65535_49279558941_319635d2a5_320_240_nofilter.jpg [following]
+--2020-02-20 07:17:02--  https://loremflickr.com/cache/resized/65535_49279558941_319635d2a5_320_240_nofilter.jpg
+Reusing existing connection to loremflickr.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 23082 (23K) [image/jpeg]
+Saving to: ‘pdkt_kusuma_6’
+
+     0K .......... .......... ..                              100% 10,5M=0,002s
+
+2020-02-20 07:17:02 (10,5 MB/s) - ‘pdkt_kusuma_6’ saved [23082/23082]
+
+--2020-02-20 07:18:01--  https://loremflickr.com/320/240/cat
+Resolving loremflickr.com (loremflickr.com)... 104.24.117.43, 104.24.116.43, 2606:4700:3033::6818:752b, ...
+Connecting to loremflickr.com (loremflickr.com)|104.24.117.43|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /cache/resized/65535_49482778876_bb1a7095fc_n_320_240_nofilter.jpg [following]
+--2020-02-20 07:18:02--  https://loremflickr.com/cache/resized/65535_49482778876_bb1a7095fc_n_320_240_nofilter.jpg
+Reusing existing connection to loremflickr.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 11948 (12K) [image/jpeg]
+Saving to: ‘pdkt_kusuma_7’
+
+     0K .......... .                                          100% 11,4M=0,001s
+
+2020-02-20 07:18:02 (11,4 MB/s) - ‘pdkt_kusuma_7’ saved [11948/11948]
+
+--2020-02-20 07:19:01--  https://loremflickr.com/320/240/cat
+Resolving loremflickr.com (loremflickr.com)... 104.24.116.43, 104.24.117.43, 2606:4700:3033::6818:752b, ...
+Connecting to loremflickr.com (loremflickr.com)|104.24.116.43|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /cache/resized/65535_49464702663_8cab17b391_320_240_nofilter.jpg [following]
+--2020-02-20 07:19:02--  https://loremflickr.com/cache/resized/65535_49464702663_8cab17b391_320_240_nofilter.jpg
+Reusing existing connection to loremflickr.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 18428 (18K) [image/jpeg]
+Saving to: ‘pdkt_kusuma_8’
+
+     0K .......... .......                                    100% 5,91M=0,003s
+
+2020-02-20 07:19:02 (5,91 MB/s) - ‘pdkt_kusuma_8’ saved [18428/18428]
+
+--2020-02-20 07:20:01--  https://loremflickr.com/320/240/cat
+Resolving loremflickr.com (loremflickr.com)... 104.24.116.43, 104.24.117.43, 2606:4700:3037::6818:742b, ...
+Connecting to loremflickr.com (loremflickr.com)|104.24.116.43|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /cache/resized/65535_49488232351_0ba5477193_320_240_nofilter.jpg [following]
+--2020-02-20 07:20:01--  https://loremflickr.com/cache/resized/65535_49488232351_0ba5477193_320_240_nofilter.jpg
+Reusing existing connection to loremflickr.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 10657 (10K) [image/jpeg]
+Saving to: ‘pdkt_kusuma_9’
+
+     0K ..........                                            100% 13,5M=0,001s
+
+2020-02-20 07:20:01 (13,5 MB/s) - ‘pdkt_kusuma_9’ saved [10657/10657]
+
+--2020-02-20 07:21:01--  https://loremflickr.com/320/240/cat
+Resolving loremflickr.com (loremflickr.com)... 104.24.117.43, 104.24.116.43, 2606:4700:3033::6818:752b, ...
+Connecting to loremflickr.com (loremflickr.com)|104.24.117.43|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /cache/resized/65535_49326724638_a0021e1014_320_240_nofilter.jpg [following]
+--2020-02-20 07:21:03--  https://loremflickr.com/cache/resized/65535_49326724638_a0021e1014_320_240_nofilter.jpg
+Reusing existing connection to loremflickr.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 12018 (12K) [image/jpeg]
+Saving to: ‘pdkt_kusuma_10’
+
+     0K .......... .                                          100% 20,7M=0,001s
+
+2020-02-20 07:21:03 (20,7 MB/s) - ‘pdkt_kusuma_10’ saved [12018/12018]
+
+--2020-02-20 07:22:01--  https://loremflickr.com/320/240/cat
+Resolving loremflickr.com (loremflickr.com)... 104.24.116.43, 104.24.117.43, 2606:4700:3037::6818:742b, ...
+Connecting to loremflickr.com (loremflickr.com)|104.24.116.43|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /cache/resized/65535_49488232351_0ba5477193_320_240_nofilter.jpg [following]
+--2020-02-20 07:22:02--  https://loremflickr.com/cache/resized/65535_49488232351_0ba5477193_320_240_nofilter.jpg
+Reusing existing connection to loremflickr.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 10657 (10K) [image/jpeg]
+Saving to: ‘pdkt_kusuma_11’
+
+     0K ..........                                            100% 20,5M=0s
+
+2020-02-20 07:22:02 (20,5 MB/s) - ‘pdkt_kusuma_11’ saved [10657/10657]
+
+--2020-02-20 07:23:01--  https://loremflickr.com/320/240/cat
+Resolving loremflickr.com (loremflickr.com)... 104.24.117.43, 104.24.116.43, 2606:4700:3033::6818:752b, ...
+Connecting to loremflickr.com (loremflickr.com)|104.24.117.43|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /cache/resized/65535_49265727736_f0962cac78_320_240_nofilter.jpg [following]
+--2020-02-20 07:23:01--  https://loremflickr.com/cache/resized/65535_49265727736_f0962cac78_320_240_nofilter.jpg
+Reusing existing connection to loremflickr.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 20062 (20K) [image/jpeg]
+Saving to: ‘pdkt_kusuma_12’
+
+     0K .......... .........                                  100% 6,75M=0,003s
+
+2020-02-20 07:23:01 (6,75 MB/s) - ‘pdkt_kusuma_12’ saved [20062/20062]
+
+--2020-02-20 07:24:01--  https://loremflickr.com/320/240/cat
+Resolving loremflickr.com (loremflickr.com)... 104.24.117.43, 104.24.116.43, 2606:4700:3033::6818:752b, ...
+Connecting to loremflickr.com (loremflickr.com)|104.24.117.43|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /cache/resized/65535_49250647151_0fc973d1eb_n_320_240_nofilter.jpg [following]
+--2020-02-20 07:24:02--  https://loremflickr.com/cache/resized/65535_49250647151_0fc973d1eb_n_320_240_nofilter.jpg
+Reusing existing connection to loremflickr.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 16482 (16K) [image/jpeg]
+Saving to: ‘pdkt_kusuma_13’
+
+     0K .......... ......                                     100% 4,59M=0,003s
+
+2020-02-20 07:24:02 (4,59 MB/s) - ‘pdkt_kusuma_13’ saved [16482/16482]
+
+--2020-02-20 07:25:01--  https://loremflickr.com/320/240/cat
+Resolving loremflickr.com (loremflickr.com)... 104.24.117.43, 104.24.116.43, 2606:4700:3037::6818:742b, ...
+Connecting to loremflickr.com (loremflickr.com)|104.24.117.43|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /cache/resized/65535_49264786763_44055ea094_320_240_nofilter.jpg [following]
+--2020-02-20 07:25:02--  https://loremflickr.com/cache/resized/65535_49264786763_44055ea094_320_240_nofilter.jpg
+Reusing existing connection to loremflickr.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 12737 (12K) [image/jpeg]
+Saving to: ‘pdkt_kusuma_14’
+
+     0K .......... ..                                         100% 10,0M=0,001s
+
+2020-02-20 07:25:02 (10,0 MB/s) - ‘pdkt_kusuma_14’ saved [12737/12737]
+
+--2020-02-20 07:26:01--  https://loremflickr.com/320/240/cat
+Resolving loremflickr.com (loremflickr.com)... 104.24.117.43, 104.24.116.43, 2606:4700:3033::6818:752b, ...
+Connecting to loremflickr.com (loremflickr.com)|104.24.117.43|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /cache/resized/65535_49461862861_08d8e3a158_n_320_240_nofilter.jpg [following]
+--2020-02-20 07:26:01--  https://loremflickr.com/cache/resized/65535_49461862861_08d8e3a158_n_320_240_nofilter.jpg
+Reusing existing connection to loremflickr.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 20264 (20K) [image/jpeg]
+Saving to: ‘pdkt_kusuma_15’
+
+     0K .......... .........                                  100% 8,37M=0,002s
+
+2020-02-20 07:26:01 (8,37 MB/s) - ‘pdkt_kusuma_15’ saved [20264/20264]
+
+--2020-02-20 07:27:01--  https://loremflickr.com/320/240/cat
+Resolving loremflickr.com (loremflickr.com)... 104.24.116.43, 104.24.117.43, 2606:4700:3037::6818:742b, ...
+Connecting to loremflickr.com (loremflickr.com)|104.24.116.43|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /cache/resized/65535_49466526992_02998a0b92_n_320_240_nofilter.jpg [following]
+--2020-02-20 07:27:02--  https://loremflickr.com/cache/resized/65535_49466526992_02998a0b92_n_320_240_nofilter.jpg
+Reusing existing connection to loremflickr.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 21735 (21K) [image/jpeg]
+Saving to: ‘pdkt_kusuma_16’
+
+     0K .......... .......... .                               100% 5,91M=0,004s
+
+2020-02-20 07:27:02 (5,91 MB/s) - ‘pdkt_kusuma_16’ saved [21735/21735]
+
+--2020-02-20 07:28:01--  https://loremflickr.com/320/240/cat
+Resolving loremflickr.com (loremflickr.com)... 104.24.117.43, 104.24.116.43, 2606:4700:3037::6818:742b, ...
+Connecting to loremflickr.com (loremflickr.com)|104.24.117.43|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /cache/resized/65535_49215104187_d41a7178a1_320_240_nofilter.jpg [following]
+--2020-02-20 07:28:02--  https://loremflickr.com/cache/resized/65535_49215104187_d41a7178a1_320_240_nofilter.jpg
+Reusing existing connection to loremflickr.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 15377 (15K) [image/jpeg]
+Saving to: ‘pdkt_kusuma_17’
+
+     0K .......... .....                                      100% 17,9M=0,001s
+
+2020-02-20 07:28:02 (17,9 MB/s) - ‘pdkt_kusuma_17’ saved [15377/15377]
+
+--2020-02-20 07:29:01--  https://loremflickr.com/320/240/cat
+Resolving loremflickr.com (loremflickr.com)... 104.24.117.43, 104.24.116.43, 2606:4700:3037::6818:742b, ...
+Connecting to loremflickr.com (loremflickr.com)|104.24.117.43|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /cache/resized/65535_49430745913_957199ce04_320_240_nofilter.jpg [following]
+--2020-02-20 07:29:01--  https://loremflickr.com/cache/resized/65535_49430745913_957199ce04_320_240_nofilter.jpg
+Reusing existing connection to loremflickr.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 21426 (21K) [image/jpeg]
+Saving to: ‘pdkt_kusuma_18’
+
+     0K .......... ..........                                 100% 5,30M=0,004s
+
+2020-02-20 07:29:01 (5,30 MB/s) - ‘pdkt_kusuma_18’ saved [21426/21426]
+
+--2020-02-20 07:30:01--  https://loremflickr.com/320/240/cat
+Resolving loremflickr.com (loremflickr.com)... 104.24.116.43, 104.24.117.43, 2606:4700:3033::6818:752b, ...
+Connecting to loremflickr.com (loremflickr.com)|104.24.116.43|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /cache/resized/65535_49438657907_3efa699955_320_240_nofilter.jpg [following]
+--2020-02-20 07:30:03--  https://loremflickr.com/cache/resized/65535_49438657907_3efa699955_320_240_nofilter.jpg
+Reusing existing connection to loremflickr.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 16889 (16K) [image/jpeg]
+Saving to: ‘pdkt_kusuma_19’
+
+     0K .......... ......                                     100% 6,74M=0,002s
+
+2020-02-20 07:30:04 (6,74 MB/s) - ‘pdkt_kusuma_19’ saved [16889/16889]
+
+--2020-02-20 07:31:01--  https://loremflickr.com/320/240/cat
+Resolving loremflickr.com (loremflickr.com)... 104.24.116.43, 104.24.117.43, 2606:4700:3037::6818:742b, ...
+Connecting to loremflickr.com (loremflickr.com)|104.24.116.43|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /cache/resized/65535_49456368862_be5a832df8_320_240_nofilter.jpg [following]
+--2020-02-20 07:31:02--  https://loremflickr.com/cache/resized/65535_49456368862_be5a832df8_320_240_nofilter.jpg
+Reusing existing connection to loremflickr.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 19490 (19K) [image/jpeg]
+Saving to: ‘pdkt_kusuma_20’
+
+     0K .......... .........                                  100% 3,28M=0,006s
+
+2020-02-20 07:31:02 (3,28 MB/s) - ‘pdkt_kusuma_20’ saved [19490/19490]
+
+--2020-02-20 07:32:01--  https://loremflickr.com/320/240/cat
+Resolving loremflickr.com (loremflickr.com)... 104.24.116.43, 104.24.117.43, 2606:4700:3033::6818:752b, ...
+Connecting to loremflickr.com (loremflickr.com)|104.24.116.43|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /cache/resized/65535_49216004432_880881ec89_320_240_nofilter.jpg [following]
+--2020-02-20 07:32:02--  https://loremflickr.com/cache/resized/65535_49216004432_880881ec89_320_240_nofilter.jpg
+Reusing existing connection to loremflickr.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 24656 (24K) [image/jpeg]
+Saving to: ‘pdkt_kusuma_21’
+
+     0K .......... .......... ....                            100% 6,82M=0,003s
+
+2020-02-20 07:32:02 (6,82 MB/s) - ‘pdkt_kusuma_21’ saved [24656/24656]
+
+--2020-02-20 07:33:01--  https://loremflickr.com/320/240/cat
+Resolving loremflickr.com (loremflickr.com)... 104.24.116.43, 104.24.117.43, 2606:4700:3037::6818:742b, ...
+Connecting to loremflickr.com (loremflickr.com)|104.24.116.43|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /cache/resized/65535_49250178128_f4ff21aeca_320_240_nofilter.jpg [following]
+--2020-02-20 07:33:01--  https://loremflickr.com/cache/resized/65535_49250178128_f4ff21aeca_320_240_nofilter.jpg
+Reusing existing connection to loremflickr.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 11655 (11K) [image/jpeg]
+Saving to: ‘pdkt_kusuma_22’
+
+     0K .......... .                                          100% 16,0M=0,001s
+
+2020-02-20 07:33:02 (16,0 MB/s) - ‘pdkt_kusuma_22’ saved [11655/11655]
+
+--2020-02-20 07:34:01--  https://loremflickr.com/320/240/cat
+Resolving loremflickr.com (loremflickr.com)... 104.24.117.43, 104.24.116.43, 2606:4700:3033::6818:752b, ...
+Connecting to loremflickr.com (loremflickr.com)|104.24.117.43|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /cache/resized/65535_49300709688_795b1aedd6_320_240_nofilter.jpg [following]
+--2020-02-20 07:34:02--  https://loremflickr.com/cache/resized/65535_49300709688_795b1aedd6_320_240_nofilter.jpg
+Reusing existing connection to loremflickr.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 25096 (25K) [image/jpeg]
+Saving to: ‘pdkt_kusuma_23’
+
+     0K .......... .......... ....                            100% 14,7M=0,002s
+
+2020-02-20 07:34:02 (14,7 MB/s) - ‘pdkt_kusuma_23’ saved [25096/25096]
+
+--2020-02-20 07:35:01--  https://loremflickr.com/320/240/cat
+Resolving loremflickr.com (loremflickr.com)... 104.24.117.43, 104.24.116.43, 2606:4700:3033::6818:752b, ...
+Connecting to loremflickr.com (loremflickr.com)|104.24.117.43|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /cache/resized/65535_49216004432_880881ec89_320_240_nofilter.jpg [following]
+--2020-02-20 07:35:02--  https://loremflickr.com/cache/resized/65535_49216004432_880881ec89_320_240_nofilter.jpg
+Reusing existing connection to loremflickr.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 24656 (24K) [image/jpeg]
+Saving to: ‘pdkt_kusuma_24’
+
+     0K .......... .......... ....                            100% 55,0M=0s
+
+2020-02-20 07:35:02 (55,0 MB/s) - ‘pdkt_kusuma_24’ saved [24656/24656]
+
+--2020-02-20 07:36:01--  https://loremflickr.com/320/240/cat
+Resolving loremflickr.com (loremflickr.com)... 104.24.116.43, 104.24.117.43, 2606:4700:3037::6818:742b, ...
+Connecting to loremflickr.com (loremflickr.com)|104.24.116.43|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /cache/resized/65535_49487173756_86fdf3c916_n_320_240_nofilter.jpg [following]
+--2020-02-20 07:36:03--  https://loremflickr.com/cache/resized/65535_49487173756_86fdf3c916_n_320_240_nofilter.jpg
+Reusing existing connection to loremflickr.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 12222 (12K) [image/jpeg]
+Saving to: ‘pdkt_kusuma_25’
+
+     0K .......... .                                          100% 13,1M=0,001s
+
+2020-02-20 07:36:04 (13,1 MB/s) - ‘pdkt_kusuma_25’ saved [12222/12222]
+
+--2020-02-20 07:37:01--  https://loremflickr.com/320/240/cat
+Resolving loremflickr.com (loremflickr.com)... 104.24.116.43, 104.24.117.43, 2606:4700:3033::6818:752b, ...
+Connecting to loremflickr.com (loremflickr.com)|104.24.116.43|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /cache/resized/65535_49466526927_072492f74a_n_320_240_nofilter.jpg [following]
+--2020-02-20 07:37:01--  https://loremflickr.com/cache/resized/65535_49466526927_072492f74a_n_320_240_nofilter.jpg
+Reusing existing connection to loremflickr.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 25579 (25K) [image/jpeg]
+Saving to: ‘pdkt_kusuma_26’
+
+     0K .......... .......... ....                            100% 6,69M=0,004s
+
+2020-02-20 07:37:01 (6,69 MB/s) - ‘pdkt_kusuma_26’ saved [25579/25579]
+
+--2020-02-20 07:38:01--  https://loremflickr.com/320/240/cat
+Resolving loremflickr.com (loremflickr.com)... 104.24.117.43, 104.24.116.43, 2606:4700:3037::6818:742b, ...
+Connecting to loremflickr.com (loremflickr.com)|104.24.117.43|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /cache/resized/65535_49471612673_38ab2b67e9_n_320_240_nofilter.jpg [following]
+--2020-02-20 07:38:02--  https://loremflickr.com/cache/resized/65535_49471612673_38ab2b67e9_n_320_240_nofilter.jpg
+Reusing existing connection to loremflickr.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 17347 (17K) [image/jpeg]
+Saving to: ‘pdkt_kusuma_27’
+
+     0K .......... ......                                     100% 6,29M=0,003s
+
+2020-02-20 07:38:02 (6,29 MB/s) - ‘pdkt_kusuma_27’ saved [17347/17347]
+
