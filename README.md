@@ -35,6 +35,7 @@ c. Tampilkan 10 produk (product name) yang memiliki keuntungan (profit) paling s
 		print "Region : "i
 		}
 	}' Sample-Superstore.tsv | head -1
+	
 <p></p>
 
 	gawk -F "\t" '
@@ -47,9 +48,31 @@ c. Tampilkan 10 produk (product name) yang memiliki keuntungan (profit) paling s
 	END { PROCINFO["sorted_in"] = "@val_num_asc"
 		for (i in arr) {
 			print "State : "i
-	}
+		}
 	}' Sample-Superstore.tsv | head -2
+<p></p>
 
+gawk -F "\t" '
+
+NR>1 {
+
+if($11 == "Texas" || $11 == "Illinois") {
+
+arr[$17]+=$21;
+
+}
+
+}
+
+END { PROCINFO["sorted_in"] = "@val_num_asc"
+
+for (i in arr) {
+
+print "Product Name : " i
+
+}
+
+}' Sample-Superstore.tsv | head -10
  
 ## SOAL 2
 <justify>
@@ -92,7 +115,7 @@ ekstensi ".log.bak"​ .
 
 	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkyNTE2ODcxLDI0NTc1NzkzNCwtMTMxOD
-cyMjc1NiwtMTUwNjIwMTY3MCwtMTIwOTczNzEyOCwtMTgyNzg0
-OTk0MiwxMDgwOTI2NjcsMTE3ODkyMjQ5OF19
+eyJoaXN0b3J5IjpbLTU0MzQwOTQxOSwyNDU3NTc5MzQsLTEzMT
+g3MjI3NTYsLTE1MDYyMDE2NzAsLTEyMDk3MzcxMjgsLTE4Mjc4
+NDk5NDIsMTA4MDkyNjY3LDExNzg5MjI0OThdfQ==
 -->
