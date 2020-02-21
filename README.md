@@ -204,11 +204,13 @@ ekstensi ".log.bak"​ .
 	wget -O $name -o - 'https://loremflickr.com/320/240/cat' >> wget.log
 <p></p>
 
+
+
  
 
 	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc2NzM0MDk2LC0xNjU3MjU1NjEzLC0xNT
+eyJoaXN0b3J5IjpbMTkzNjEyMTQwLC0xNjU3MjU1NjEzLC0xNT
 EyNjM2MjMwLC0xNzkyNzE1NjM2LDEwOTY3NzQxMDMsLTMyMDk4
 ODgxOCwyNDU3NTc5MzQsLTEzMTg3MjI3NTYsLTE1MDYyMDE2Nz
 AsLTEyMDk3MzcxMjgsLTE4Mjc4NDk5NDIsMTA4MDkyNjY3LDEx
