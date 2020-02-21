@@ -128,6 +128,37 @@ file dibuat pada jam 1 maka 16+1=17 dan huruf ke 17 adalah q dan begitu pula set
 	mv $filename "$newfilename".txt`
 <p></p>
 
+	#!/bin/bash
+	
+	filename=$1
+	id=$(awk 'NR==2 {print $1}' $filename)
+	
+	stop=${#filename}
+	
+	encrypt=`expr $stop - 4`
+
+	kapital=ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ
+kecil=abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
+
+noekstensi=${filename:0:$encrypt}
+
+echo $noekstensi
+
+if [[ "$filename" =~ [a-z] ]]
+
+then
+
+newfilename=$(echo $noekstensi | tr "${kecil:0:26}" "${kecil:${id}:26}")
+
+else
+
+newfilename=$(echo $noekstensi | tr "${kapital:0:26}" "${kapital:${id}:26}")
+
+fi
+
+echo $newfilename
+
+`mv $filename "$newfilename".txt`
 
 ## SOAL 3
 <justify>
@@ -164,8 +195,8 @@ ekstensi ".log.bak"​ .
 
 	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5Njc3NDEwMywtMzIwOTg4ODE4LDI0NT
-c1NzkzNCwtMTMxODcyMjc1NiwtMTUwNjIwMTY3MCwtMTIwOTcz
-NzEyOCwtMTgyNzg0OTk0MiwxMDgwOTI2NjcsMTE3ODkyMjQ5OF
-19
+eyJoaXN0b3J5IjpbMTQxNzA3MDIyOCwxMDk2Nzc0MTAzLC0zMj
+A5ODg4MTgsMjQ1NzU3OTM0LC0xMzE4NzIyNzU2LC0xNTA2MjAx
+NjcwLC0xMjA5NzM3MTI4LC0xODI3ODQ5OTQyLDEwODA5MjY2Ny
+wxMTc4OTIyNDk4XX0=
 -->
