@@ -37,10 +37,10 @@ c. Tampilkan 10 produk (product name) yang memiliki keuntungan (profit) paling s
 	}' Sample-Superstore.tsv | head -1
 
 	gawk -F "\t" '
-	NR>1 {
-	if($13 == "Central") {	
-arr[$11]+=$21;
-}
+		NR>1 {
+		if($13 == "Central") {	
+		arr[$11]+=$21;
+	}
 }
 
 END { PROCINFO["sorted_in"] = "@val_num_asc"
@@ -95,7 +95,7 @@ ekstensi ".log.bak"​ .
 
 	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ1NzU3OTM0LC0xMzE4NzIyNzU2LC0xNT
-A2MjAxNjcwLC0xMjA5NzM3MTI4LC0xODI3ODQ5OTQyLDEwODA5
-MjY2NywxMTc4OTIyNDk4XX0=
+eyJoaXN0b3J5IjpbMTkyNzUxNDg1NCwyNDU3NTc5MzQsLTEzMT
+g3MjI3NTYsLTE1MDYyMDE2NzAsLTEyMDk3MzcxMjgsLTE4Mjc4
+NDk5NDIsMTA4MDkyNjY3LDExNzg5MjI0OThdfQ==
 -->
