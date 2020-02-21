@@ -204,15 +204,23 @@ ekstensi ".log.bak"​ .
 	wget -O $name -o - 'https://loremflickr.com/320/240/cat' >> wget.log
 <p></p>
 
+	#!/bin/bash
 
+	mapfile ori < <(awk -F '_' '{
+		if (NR%2==1)
+	{
+	print $2
+	}
+
+}' location.log)
 
  
 
 	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNjEyMTQwLC0xNjU3MjU1NjEzLC0xNT
-EyNjM2MjMwLC0xNzkyNzE1NjM2LDEwOTY3NzQxMDMsLTMyMDk4
-ODgxOCwyNDU3NTc5MzQsLTEzMTg3MjI3NTYsLTE1MDYyMDE2Nz
-AsLTEyMDk3MzcxMjgsLTE4Mjc4NDk5NDIsMTA4MDkyNjY3LDEx
-Nzg5MjI0OThdfQ==
+eyJoaXN0b3J5IjpbLTYzNjY5MDUwMSwtMTY1NzI1NTYxMywtMT
+UxMjYzNjIzMCwtMTc5MjcxNTYzNiwxMDk2Nzc0MTAzLC0zMjA5
+ODg4MTgsMjQ1NzU3OTM0LC0xMzE4NzIyNzU2LC0xNTA2MjAxNj
+cwLC0xMjA5NzM3MTI4LC0xODI3ODQ5OTQyLDEwODA5MjY2Nywx
+MTc4OTIyNDk4XX0=
 -->
