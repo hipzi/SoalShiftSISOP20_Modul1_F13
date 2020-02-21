@@ -10,10 +10,11 @@
 	 * soal3.sh
 	 * soal3_duplicate.sh
 
+
  
 
 	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNTkxOTkxNCwtMTgyNzg0OTk0MiwxMD
-gwOTI2NjcsMTE3ODkyMjQ5OF19
+eyJoaXN0b3J5IjpbLTEyMDk3MzcxMjgsLTE4Mjc4NDk5NDIsMT
+A4MDkyNjY3LDExNzg5MjI0OThdfQ==
 -->
