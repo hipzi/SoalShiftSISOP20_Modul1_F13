@@ -35,23 +35,20 @@ c. Tampilkan 10 produk (product name) yang memiliki keuntungan (profit) paling s
 		print "Region : "i
 		}
 	}' Sample-Superstore.tsv | head -1
+<p></p>
 
 	gawk -F "\t" '
 		NR>1 {
 		if($13 == "Central") {	
 		arr[$11]+=$21;
+		}
 	}
-}
 
-END { PROCINFO["sorted_in"] = "@val_num_asc"
-
-for (i in arr) {
-
-print "State : "i
-
-}
-
-}' Sample-Superstore.tsv | head -2
+	END { PROCINFO["sorted_in"] = "@val_num_asc"
+		for (i in arr) {
+			print "State : "i
+	}
+	}' Sample-Superstore.tsv | head -2
 
  
 ## SOAL 2
@@ -95,7 +92,7 @@ ekstensi ".log.bak"​ .
 
 	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNzUxNDg1NCwyNDU3NTc5MzQsLTEzMT
-g3MjI3NTYsLTE1MDYyMDE2NzAsLTEyMDk3MzcxMjgsLTE4Mjc4
-NDk5NDIsMTA4MDkyNjY3LDExNzg5MjI0OThdfQ==
+eyJoaXN0b3J5IjpbMzkyNTE2ODcxLDI0NTc1NzkzNCwtMTMxOD
+cyMjc1NiwtMTUwNjIwMTY3MCwtMTIwOTczNzEyOCwtMTgyNzg0
+OTk0MiwxMDgwOTI2NjcsMTE3ODkyMjQ5OF19
 -->
