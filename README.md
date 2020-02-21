@@ -101,7 +101,8 @@ file dibuat pada jam 1 maka 16+1=17 dan huruf ke 17 adalah q dan begitu pula set
 	else
 		echo "Maaf! Nama File hanya boleh menggunakan Alphabet"
 	fi
-	
+<p></p>
+
 
 ## SOAL 3
 <justify>
@@ -132,12 +133,14 @@ dengan format filename "kenangan_nomor" (contoh: kenangan_252, kenangan_253).
 Setelah tidak ada gambar di ​ current directory ​ , maka lakukan backup seluruh log menjadi
 ekstensi ".log.bak"​ .
 </justify>
+
+
  
 
 	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MzM4NzAxNCwtMzIwOTg4ODE4LDI0NT
-c1NzkzNCwtMTMxODcyMjc1NiwtMTUwNjIwMTY3MCwtMTIwOTcz
-NzEyOCwtMTgyNzg0OTk0MiwxMDgwOTI2NjcsMTE3ODkyMjQ5OF
-19
+eyJoaXN0b3J5IjpbODEzMjE5MDAzLC0zMjA5ODg4MTgsMjQ1Nz
+U3OTM0LC0xMzE4NzIyNzU2LC0xNTA2MjAxNjcwLC0xMjA5NzM3
+MTI4LC0xODI3ODQ5OTQyLDEwODA5MjY2NywxMTc4OTIyNDk4XX
+0=
 -->
