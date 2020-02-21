@@ -192,18 +192,14 @@ ekstensi ".log.bak"​ .
 		i=1
 	while [[ -e $name'_'$i ]] ; do
 		let i++
+	done
 
-done
+	name=$name'_'$i
 
-name=$name'_'$i
-
-if [ $i -eq 27 ] ; then
-
-`crontab -r`
-
-fi
-
-fi
+	if [ $i -eq 27 ] ; then
+		`crontab -r`
+	fi
+	fi
 
 wget -O $name -o - 'https://loremflickr.com/320/240/cat' >> wget.log
 
@@ -211,7 +207,7 @@ wget -O $name -o - 'https://loremflickr.com/320/240/cat' >> wget.log
 
 	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjEyNzczMjUsLTE1MTI2MzYyMzAsLT
+eyJoaXN0b3J5IjpbLTE2NTcyNTU2MTMsLTE1MTI2MzYyMzAsLT
 E3OTI3MTU2MzYsMTA5Njc3NDEwMywtMzIwOTg4ODE4LDI0NTc1
 NzkzNCwtMTMxODcyMjc1NiwtMTUwNjIwMTY3MCwtMTIwOTczNz
 EyOCwtMTgyNzg0OTk0MiwxMDgwOTI2NjcsMTE3ODkyMjQ5OF19
