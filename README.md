@@ -23,6 +23,19 @@ b. Tampilkan 2 negara bagian (state) yang memiliki keuntungan (profit) paling se
 c. Tampilkan 10 produk (product name) yang memiliki keuntungan (profit) paling sedikit berdasarkan 2 negara bagian (state) hasil poin b Whits memohon kepada kalian yang sudah jago mengolah data untuk mengerjakanlaporan tersebut.
 </justify>
 
+    #!/bin/bash
+
+	gawk -F "\t" '
+		NR>1 {
+		arr[$13]+=$21;	
+	}
+	
+	END { PROCINFO["sorted_in"] = "@val_num_asc"
+	for (i in arr) {	
+	print "Region : "i
+	}
+	}' Sample-Superstore.tsv | head -1
+
  
 ## SOAL 2
 <justify>
@@ -65,7 +78,7 @@ ekstensi ".log.bak"​ .
 
 	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NjU4NDIzNiwtMTMxODcyMjc1NiwtMT
-UwNjIwMTY3MCwtMTIwOTczNzEyOCwtMTgyNzg0OTk0MiwxMDgw
-OTI2NjcsMTE3ODkyMjQ5OF19
+eyJoaXN0b3J5IjpbMTU4OTM3MzAyLC0xMzE4NzIyNzU2LC0xNT
+A2MjAxNjcwLC0xMjA5NzM3MTI4LC0xODI3ODQ5OTQyLDEwODA5
+MjY2NywxMTc4OTIyNDk4XX0=
 -->
