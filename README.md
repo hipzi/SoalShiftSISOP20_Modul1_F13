@@ -27,9 +27,9 @@ c. Tampilkan 10 produk (product name) yang memiliki keuntungan (profit) paling s
 dapat menghasilkan password secara acak sebanyak 28 karakter yang terdapat huruf besar, huruf kecil, dan angka. (b) Password acak tersebut disimpan pada file berekstensi .txt dengan nama berdasarkan argumen yang diinputkan dan ​ HANYA ​ berupa alphabet​. (c) Kemudian supaya file .txt tersebut tidak mudah diketahui maka nama filenya akan di enkripsi dengan menggunakan konversi huruf (string manipulation) yang disesuaikan dengan jam(0-23) dibuatnya file tersebut dengan program terpisah dengan (misal: password.txt dibuat pada jam 01.28 maka namanya berubah menjadi qbttxpse.txt dengan perintah ‘​ bash soal2_enkripsi.sh password.txt’. Karena p adalah huruf ke 16 dan
 file dibuat pada jam 1 maka 16+1=17 dan huruf ke 17 adalah q dan begitu pula seterusnya. Apabila melebihi ​ z ​ , akan kembali ke ​ a ​ , contoh: huruf ​ w dengan jam 5.28, maka akan menjadi huruf ​ b.​ ) dan (d) jangan lupa untuk membuat dekripsinya supaya nama file bisa kembali.
 </justify>
-
+<p><>
 <justify>
-1 tahun telah berlalu sejak pencampakan hati Kusuma. Akankah sang pujaan hati
+3. 1 tahun telah berlalu sejak pencampakan hati Kusuma. Akankah sang pujaan hati
 kembali ke naungan Kusuma? Memang tiada maaf bagi Elen. Tapi apa daya hati yang
 sudah hancur, Kusuma masih terguncang akan sikap Elen. Melihat kesedihan Kusuma,
 kalian mencoba menghibur Kusuma dengan mengirimkan gambar kucing. [a] ​ Maka dari
@@ -60,7 +60,7 @@ ekstensi ".log.bak"​ .
 
 	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMjg4OTMxMywtMTMxODcyMjc1NiwtMT
+eyJoaXN0b3J5IjpbMTk4MDYyMjc4MiwtMTMxODcyMjc1NiwtMT
 UwNjIwMTY3MCwtMTIwOTczNzEyOCwtMTgyNzg0OTk0MiwxMDgw
 OTI2NjcsMTE3ODkyMjQ5OF19
 -->
