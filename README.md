@@ -224,14 +224,28 @@ ekstensi ".log.bak"​ .
 	do
 		hash[${ori[i]}]=${rename[i]}
 	done
-	
+<p></p>
+
+	name=kenangan
+
+	for i in "${!hash[@]}"
+	do
+		name=kenangan
+		let a++
+		name=$name'_'$a
+		mv ${hash[$i]} $name
+		mv $name ~/Downloads/kenangan/
+	done
+<p></p>
+
+
  
 
 	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMDYxMDM3NiwtNjM2NjkwNTAxLC0xNj
-U3MjU1NjEzLC0xNTEyNjM2MjMwLC0xNzkyNzE1NjM2LDEwOTY3
-NzQxMDMsLTMyMDk4ODgxOCwyNDU3NTc5MzQsLTEzMTg3MjI3NT
-YsLTE1MDYyMDE2NzAsLTEyMDk3MzcxMjgsLTE4Mjc4NDk5NDIs
-MTA4MDkyNjY3LDExNzg5MjI0OThdfQ==
+eyJoaXN0b3J5IjpbLTIwODc3MDU5ODgsLTYzNjY5MDUwMSwtMT
+Y1NzI1NTYxMywtMTUxMjYzNjIzMCwtMTc5MjcxNTYzNiwxMDk2
+Nzc0MTAzLC0zMjA5ODg4MTgsMjQ1NzU3OTM0LC0xMzE4NzIyNz
+U2LC0xNTA2MjAxNjcwLC0xMjA5NzM3MTI4LC0xODI3ODQ5OTQy
+LDEwODA5MjY2NywxMTc4OTIyNDk4XX0=
 -->
