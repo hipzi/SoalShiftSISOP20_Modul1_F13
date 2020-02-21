@@ -17,7 +17,7 @@ untuk membuat laporan berdasarkan data yang ada pada file “Sample-Superstore.t
 Namun dia tidak dapat menyelesaikan tugas tersebut. Laporan yang diminta berupa :
 <p></p>
 a. Tentukan wilayah bagian (region) mana yang memiliki keuntungan (profit) paling sedikit
-
+<p></p>
 b. Tampilkan 2 negara bagian (state) yang memiliki keuntungan (profit) paling sedikit berdasarkan hasil poin a
 
 c. Tampilkan 10 produk (product name) yang memiliki keuntungan (profit) paling sedikit berdasarkan 2 negara bagian (state) hasil poin b Whits memohon kepada kalian yang sudah jago mengolah data untuk mengerjakanlaporan tersebut.
@@ -126,6 +126,8 @@ file dibuat pada jam 1 maka 16+1=17 dan huruf ke 17 adalah q dan begitu pula set
 
 	echo $newfilename
 	mv $filename "$newfilename".txt`
+<p></p>
+
 
 ## SOAL 3
 <justify>
@@ -162,8 +164,8 @@ ekstensi ".log.bak"​ .
 
 	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTc5MzAwNjAsLTMyMDk4ODgxOCwyND
-U3NTc5MzQsLTEzMTg3MjI3NTYsLTE1MDYyMDE2NzAsLTEyMDk3
-MzcxMjgsLTE4Mjc4NDk5NDIsMTA4MDkyNjY3LDExNzg5MjI0OT
-hdfQ==
+eyJoaXN0b3J5IjpbLTEwODI5Mzc5MiwtMzIwOTg4ODE4LDI0NT
+c1NzkzNCwtMTMxODcyMjc1NiwtMTUwNjIwMTY3MCwtMTIwOTcz
+NzEyOCwtMTgyNzg0OTk0MiwxMDgwOTI2NjcsMTE3ODkyMjQ5OF
+19
 -->
