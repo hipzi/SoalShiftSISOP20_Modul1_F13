@@ -1,4 +1,4 @@
-# SOAL SHIFT 1
+# MODUL 1
 
  - Soal 1 :
 	 * soal1.sh
@@ -65,7 +65,7 @@ ekstensi ".log.bak"​ .
 
 	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODc0MjM5MTgsLTEzMTg3MjI3NTYsLT
-E1MDYyMDE2NzAsLTEyMDk3MzcxMjgsLTE4Mjc4NDk5NDIsMTA4
-MDkyNjY3LDExNzg5MjI0OThdfQ==
+eyJoaXN0b3J5IjpbMTI5NjU4NDIzNiwtMTMxODcyMjc1NiwtMT
+UwNjIwMTY3MCwtMTIwOTczNzEyOCwtMTgyNzg0OTk0MiwxMDgw
+OTI2NjcsMTE3ODkyMjQ5OF19
 -->
