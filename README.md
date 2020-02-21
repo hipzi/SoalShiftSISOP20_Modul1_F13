@@ -9,7 +9,8 @@
  - Soal 3
 	 * soal3.sh
 	 * soal3_duplicate.sh
-	 
+
+## SOAL 1
 <justify>
 1. Whits adalah seorang mahasiswa teknik informatika. Dia mendapatkan tugas praktikum
 untuk membuat laporan berdasarkan data yang ada pada file “Sample-Superstore.tsv”.
@@ -23,13 +24,15 @@ c. Tampilkan 10 produk (product name) yang memiliki keuntungan (profit) paling s
 </justify>
 
  
-
+## SOAL 2
 <justify>
 2. Pada suatu siang, laptop Randolf dan Afairuzr dibajak oleh seseorang dan kehilangan data-data penting. Untuk mencegah kejadian yang sama terulang kembali mereka meminta bantuan kepada Whits karena dia adalah seorang yang punya banyak ide. Whits memikirkan sebuah ide namun dia meminta bantuan kalian kembali agar ide tersebut cepat diselesaikan. Idenya adalah kalian (a) membuat sebuah script bash yang
 dapat menghasilkan password secara acak sebanyak 28 karakter yang terdapat huruf besar, huruf kecil, dan angka. (b) Password acak tersebut disimpan pada file berekstensi .txt dengan nama berdasarkan argumen yang diinputkan dan ​ HANYA ​ berupa alphabet​. (c) Kemudian supaya file .txt tersebut tidak mudah diketahui maka nama filenya akan di enkripsi dengan menggunakan konversi huruf (string manipulation) yang disesuaikan dengan jam(0-23) dibuatnya file tersebut dengan program terpisah dengan (misal: password.txt dibuat pada jam 01.28 maka namanya berubah menjadi qbttxpse.txt dengan perintah ‘​ bash soal2_enkripsi.sh password.txt’. Karena p adalah huruf ke 16 dan
 file dibuat pada jam 1 maka 16+1=17 dan huruf ke 17 adalah q dan begitu pula seterusnya. Apabila melebihi ​ z ​ , akan kembali ke ​ a ​ , contoh: huruf ​ w dengan jam 5.28, maka akan menjadi huruf ​ b.​ ) dan (d) jangan lupa untuk membuat dekripsinya supaya nama file bisa kembali.
 </justify>
 <p></p>
+
+## SOAL 3
 <justify>
 3. 1 tahun telah berlalu sejak pencampakan hati Kusuma. Akankah sang pujaan hati
 kembali ke naungan Kusuma? Memang tiada maaf bagi Elen. Tapi apa daya hati yang
@@ -62,7 +65,7 @@ ekstensi ".log.bak"​ .
 
 	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODYzNzIyMSwtMTMxODcyMjc1NiwtMT
-UwNjIwMTY3MCwtMTIwOTczNzEyOCwtMTgyNzg0OTk0MiwxMDgw
-OTI2NjcsMTE3ODkyMjQ5OF19
+eyJoaXN0b3J5IjpbLTE0ODc0MjM5MTgsLTEzMTg3MjI3NTYsLT
+E1MDYyMDE2NzAsLTEyMDk3MzcxMjgsLTE4Mjc4NDk5NDIsMTA4
+MDkyNjY3LDExNzg5MjI0OThdfQ==
 -->
