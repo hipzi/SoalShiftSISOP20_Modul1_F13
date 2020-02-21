@@ -73,6 +73,47 @@ file dibuat pada jam 1 maka 16+1=17 dan huruf ke 17 adalah q dan begitu pula set
 </justify>
 <p></p>
 
+	#!/bin/bash
+	
+	id=$(date '+%H')
+	
+	read filename
+	stop=${#filename}
+	true=0
+
+	random_password() {	
+head /dev/urandom | tr -dc A-Za-z0-9 | head -c 28 > $filename.txt
+echo -e "\n"$id >> $filename.txt
+}
+
+for ((i=0; i<$stop; i++)) do
+
+if [[ "$filename" =~ [a-zA-Z] && ! "$filename" =~ [0-9] &&
+
+! "$filename" =~ ['!'@#\$%^\&*()_+] ]]
+
+then
+
+true=1
+
+fi
+
+done
+
+if [ $true -eq 1 ]
+
+then
+
+random_password
+
+echo "Selamat! File baru telah dibuat"
+
+else
+
+echo "Maaf! Nama File hanya boleh menggunakan Alphabet"
+
+fi
+
 ## SOAL 3
 <justify>
 3. 1 tahun telah berlalu sejak pencampakan hati Kusuma. Akankah sang pujaan hati
@@ -106,7 +147,8 @@ ekstensi ".log.bak"​ .
 
 	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMDk4ODgxOCwyNDU3NTc5MzQsLTEzMT
-g3MjI3NTYsLTE1MDYyMDE2NzAsLTEyMDk3MzcxMjgsLTE4Mjc4
-NDk5NDIsMTA4MDkyNjY3LDExNzg5MjI0OThdfQ==
+eyJoaXN0b3J5IjpbLTEyNzI2MzE1NzAsLTMyMDk4ODgxOCwyND
+U3NTc5MzQsLTEzMTg3MjI3NTYsLTE1MDYyMDE2NzAsLTEyMDk3
+MzcxMjgsLTE4Mjc4NDk5NDIsMTA4MDkyNjY3LDExNzg5MjI0OT
+hdfQ==
 -->
