@@ -52,24 +52,16 @@ c. Tampilkan 10 produk (product name) yang memiliki keuntungan (profit) paling s
 	}' Sample-Superstore.tsv | head -2
 <p></p>
 
-gawk -F "\t" '
-
-NR>1 {
-
-if($11 == "Texas" || $11 == "Illinois") {
-
-arr[$17]+=$21;
-
-}
-
-}
-
-END { PROCINFO["sorted_in"] = "@val_num_asc"
-
-for (i in arr) {
-
-print "Product Name : " i
-
+	gawk -F "\t" '
+		NR>1 {	
+		if($11 == "Texas" || $11 == "Illinois") {
+			arr[$17]+=$21;
+		}
+	}
+	
+	END { PROCINFO["sorted_in"] = "@val_num_asc"
+		for (i in arr) {
+			print "Product Name : " i
 }
 
 }' Sample-Superstore.tsv | head -10
@@ -115,7 +107,7 @@ ekstensi ".log.bak"​ .
 
 	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MzQwOTQxOSwyNDU3NTc5MzQsLTEzMT
-g3MjI3NTYsLTE1MDYyMDE2NzAsLTEyMDk3MzcxMjgsLTE4Mjc4
-NDk5NDIsMTA4MDkyNjY3LDExNzg5MjI0OThdfQ==
+eyJoaXN0b3J5IjpbLTEwNTg3NDU1ODcsMjQ1NzU3OTM0LC0xMz
+E4NzIyNzU2LC0xNTA2MjAxNjcwLC0xMjA5NzM3MTI4LC0xODI3
+ODQ5OTQyLDEwODA5MjY2NywxMTc4OTIyNDk4XX0=
 -->
