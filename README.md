@@ -91,24 +91,17 @@ file dibuat pada jam 1 maka 16+1=17 dan huruf ke 17 adalah q dan begitu pula set
 		! "$filename" =~ ['!'@#\$%^\&*()_+] ]]
 	then
 		true=1
+	fi
+	done
 
-fi
-
-done
-
-if [ $true -eq 1 ]
-
-then
-
-random_password
-
-echo "Selamat! File baru telah dibuat"
-
-else
-
-echo "Maaf! Nama File hanya boleh menggunakan Alphabet"
-
-fi
+	if [ $true -eq 1 ]
+	then
+		random_password
+		echo "Selamat! File baru telah dibuat"
+	else
+		echo "Maaf! Nama File hanya boleh menggunakan Alphabet"
+	fi
+	
 
 ## SOAL 3
 <justify>
@@ -143,8 +136,8 @@ ekstensi ".log.bak"​ .
 
 	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM5NDA1NjgwLC0zMjA5ODg4MTgsMjQ1Nz
-U3OTM0LC0xMzE4NzIyNzU2LC0xNTA2MjAxNjcwLC0xMjA5NzM3
-MTI4LC0xODI3ODQ5OTQyLDEwODA5MjY2NywxMTc4OTIyNDk4XX
-0=
+eyJoaXN0b3J5IjpbLTg2MzM4NzAxNCwtMzIwOTg4ODE4LDI0NT
+c1NzkzNCwtMTMxODcyMjc1NiwtMTUwNjIwMTY3MCwtMTIwOTcz
+NzEyOCwtMTgyNzg0OTk0MiwxMDgwOTI2NjcsMTE3ODkyMjQ5OF
+19
 -->
