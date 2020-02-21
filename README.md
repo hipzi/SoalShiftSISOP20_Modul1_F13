@@ -238,14 +238,23 @@ ekstensi ".log.bak"​ .
 	done
 <p></p>
 
+	mapfile arr < <(find pdkt_kusuma* )
 
+	for ((i=0; i<${#arr[@]}; i++))
+	do
+		duplicate=duplicate
+		let d++
+		duplicate=$duplicate'_'$d
+		mv ${arr[$i]} $duplicate
+		mv $duplicate ~/Downloads/duplicate/
+	done
  
 
 	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODc3MDU5ODgsLTYzNjY5MDUwMSwtMT
-Y1NzI1NTYxMywtMTUxMjYzNjIzMCwtMTc5MjcxNTYzNiwxMDk2
-Nzc0MTAzLC0zMjA5ODg4MTgsMjQ1NzU3OTM0LC0xMzE4NzIyNz
-U2LC0xNTA2MjAxNjcwLC0xMjA5NzM3MTI4LC0xODI3ODQ5OTQy
-LDEwODA5MjY2NywxMTc4OTIyNDk4XX0=
+eyJoaXN0b3J5IjpbMTU2MDUzNTI4MCwtNjM2NjkwNTAxLC0xNj
+U3MjU1NjEzLC0xNTEyNjM2MjMwLC0xNzkyNzE1NjM2LDEwOTY3
+NzQxMDMsLTMyMDk4ODgxOCwyNDU3NTc5MzQsLTEzMTg3MjI3NT
+YsLTE1MDYyMDE2NzAsLTEyMDk3MzcxMjgsLTE4Mjc4NDk5NDIs
+MTA4MDkyNjY3LDExNzg5MjI0OThdfQ==
 -->
