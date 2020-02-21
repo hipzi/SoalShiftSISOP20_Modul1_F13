@@ -31,10 +31,12 @@ c. Tampilkan 10 produk (product name) yang memiliki keuntungan (profit) paling s
 	}
 	
 	END { PROCINFO["sorted_in"] = "@val_num_asc"
-	for (i in arr) {	
-	print "Region : "i
-	}
+		for (i in arr) {	
+		print "Region : "i
+		}
 	}' Sample-Superstore.tsv | head -1
+
+
 
  
 ## SOAL 2
@@ -78,7 +80,7 @@ ekstensi ".log.bak"​ .
 
 	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4OTM3MzAyLC0xMzE4NzIyNzU2LC0xNT
-A2MjAxNjcwLC0xMjA5NzM3MTI4LC0xODI3ODQ5OTQyLDEwODA5
-MjY2NywxMTc4OTIyNDk4XX0=
+eyJoaXN0b3J5IjpbLTEyOTkyNzM3NCwtMTMxODcyMjc1NiwtMT
+UwNjIwMTY3MCwtMTIwOTczNzEyOCwtMTgyNzg0OTk0MiwxMDgw
+OTI2NjcsMTE3ODkyMjQ5OF19
 -->
