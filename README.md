@@ -213,14 +213,25 @@ ekstensi ".log.bak"​ .
 	}' location.log)
 <p></p>
 
+	mapfile rename < <(awk -F '‘' '{
+		if (NR%2==0) {
+			print $2
+		}
+	}' location.log | sed s/\’// )
+<p></p>
 
+	for ((i=0; $i<${#ori[@]}; i++))
+	do
+		hash[${ori[i]}]=${rename[i]}
+	done
+	
  
 
 	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcxOTQ5MTYyLC02MzY2OTA1MDEsLTE2NT
-cyNTU2MTMsLTE1MTI2MzYyMzAsLTE3OTI3MTU2MzYsMTA5Njc3
-NDEwMywtMzIwOTg4ODE4LDI0NTc1NzkzNCwtMTMxODcyMjc1Ni
-wtMTUwNjIwMTY3MCwtMTIwOTczNzEyOCwtMTgyNzg0OTk0Miwx
-MDgwOTI2NjcsMTE3ODkyMjQ5OF19
+eyJoaXN0b3J5IjpbMTgxMDYxMDM3NiwtNjM2NjkwNTAxLC0xNj
+U3MjU1NjEzLC0xNTEyNjM2MjMwLC0xNzkyNzE1NjM2LDEwOTY3
+NzQxMDMsLTMyMDk4ODgxOCwyNDU3NTc5MzQsLTEzMTg3MjI3NT
+YsLTE1MDYyMDE2NzAsLTEyMDk3MzcxMjgsLTE4Mjc4NDk5NDIs
+MTA4MDkyNjY3LDExNzg5MjI0OThdfQ==
 -->
