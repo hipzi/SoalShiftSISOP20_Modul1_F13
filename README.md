@@ -82,19 +82,15 @@ file dibuat pada jam 1 maka 16+1=17 dan huruf ke 17 adalah q dan begitu pula set
 	true=0
 
 	random_password() {	
-head /dev/urandom | tr -dc A-Za-z0-9 | head -c 28 > $filename.txt
-echo -e "\n"$id >> $filename.txt
-}
+		head /dev/urandom | tr -dc A-Za-z0-9 | head -c 28 > $filename.txt
+		echo -e "\n"$id >> $filename.txt
+	}
 
-for ((i=0; i<$stop; i++)) do
-
-if [[ "$filename" =~ [a-zA-Z] && ! "$filename" =~ [0-9] &&
-
-! "$filename" =~ ['!'@#\$%^\&*()_+] ]]
-
-then
-
-true=1
+	for ((i=0; i<$stop; i++)) do
+		if [[ "$filename" =~ [a-zA-Z] && ! "$filename" =~ [0-9] && 
+		! "$filename" =~ ['!'@#\$%^\&*()_+] ]]
+	then
+		true=1
 
 fi
 
@@ -147,8 +143,8 @@ ekstensi ".log.bak"​ .
 
 	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzI2MzE1NzAsLTMyMDk4ODgxOCwyND
-U3NTc5MzQsLTEzMTg3MjI3NTYsLTE1MDYyMDE2NzAsLTEyMDk3
-MzcxMjgsLTE4Mjc4NDk5NDIsMTA4MDkyNjY3LDExNzg5MjI0OT
-hdfQ==
+eyJoaXN0b3J5IjpbODM5NDA1NjgwLC0zMjA5ODg4MTgsMjQ1Nz
+U3OTM0LC0xMzE4NzIyNzU2LC0xNTA2MjAxNjcwLC0xMjA5NzM3
+MTI4LC0xODI3ODQ5OTQyLDEwODA5MjY2NywxMTc4OTIyNDk4XX
+0=
 -->
