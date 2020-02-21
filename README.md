@@ -9,20 +9,24 @@
  - Soal 3
 	 * soal3.sh
 	 * soal3_duplicate.sh
-
+	 
+<justify>
 1. Whits adalah seorang mahasiswa teknik informatika. Dia mendapatkan tugas praktikum
 untuk membuat laporan berdasarkan data yang ada pada file “Sample-Superstore.tsv”.
 Namun dia tidak dapat menyelesaikan tugas tersebut. Laporan yang diminta berupa :
 
-		a. Tentukan wilayah bagian (region) mana yang memiliki keuntungan (profit) paling sedikit
-		b. Tampilkan 2 negara bagian (state) yang memiliki keuntungan (profit) paling sedikit berdasarkan hasil poin a
-		c. Tampilkan 10 produk (product name) yang memiliki keuntungan (profit) paling sedikit berdasarkan 2 negara bagian (state) hasil poin b Whits memohon kepada kalian yang sudah jago mengolah data untuk mengerjakanlaporan tersebut.
+a. Tentukan wilayah bagian (region) mana yang memiliki keuntungan (profit) paling sedikit
+
+b. Tampilkan 2 negara bagian (state) yang memiliki keuntungan (profit) paling sedikit berdasarkan hasil poin a
+
+c. Tampilkan 10 produk (product name) yang memiliki keuntungan (profit) paling sedikit berdasarkan 2 negara bagian (state) hasil poin b Whits memohon kepada kalian yang sudah jago mengolah data untuk mengerjakanlaporan tersebut.
+</justify>
 
  
 
 	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTg3MjI3NTYsLTE1MDYyMDE2NzAsLT
-EyMDk3MzcxMjgsLTE4Mjc4NDk5NDIsMTA4MDkyNjY3LDExNzg5
-MjI0OThdfQ==
+eyJoaXN0b3J5IjpbNTk2NDIyMTQ5LC0xMzE4NzIyNzU2LC0xNT
+A2MjAxNjcwLC0xMjA5NzM3MTI4LC0xODI3ODQ5OTQyLDEwODA5
+MjY2NywxMTc4OTIyNDk4XX0=
 -->
