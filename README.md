@@ -138,27 +138,21 @@ file dibuat pada jam 1 maka 16+1=17 dan huruf ke 17 adalah q dan begitu pula set
 	encrypt=`expr $stop - 4`
 
 	kapital=ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ
-kecil=abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
+	kecil=abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
 
-noekstensi=${filename:0:$encrypt}
+	noekstensi=${filename:0:$encrypt}
 
-echo $noekstensi
+	echo $noekstensi
+	
+	if [[ "$filename" =~ [a-z] ]]
+	then
+		newfilename=$(echo $noekstensi | tr "${kecil:0:26}" "${kecil:${id}:26}")
+	else
+		newfilename=$(echo $noekstensi | tr "${kapital:0:26}" "${kapital:${id}:26}")
+	fi
 
-if [[ "$filename" =~ [a-z] ]]
-
-then
-
-newfilename=$(echo $noekstensi | tr "${kecil:0:26}" "${kecil:${id}:26}")
-
-else
-
-newfilename=$(echo $noekstensi | tr "${kapital:0:26}" "${kapital:${id}:26}")
-
-fi
-
-echo $newfilename
-
-`mv $filename "$newfilename".txt`
+	echo $newfilename
+	`mv $filename "$newfilename".txt`
 
 ## SOAL 3
 <justify>
@@ -195,8 +189,8 @@ ekstensi ".log.bak"​ .
 
 	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNzA3MDIyOCwxMDk2Nzc0MTAzLC0zMj
-A5ODg4MTgsMjQ1NzU3OTM0LC0xMzE4NzIyNzU2LC0xNTA2MjAx
-NjcwLC0xMjA5NzM3MTI4LC0xODI3ODQ5OTQyLDEwODA5MjY2Ny
-wxMTc4OTIyNDk4XX0=
+eyJoaXN0b3J5IjpbLTE3OTI3MTU2MzYsMTA5Njc3NDEwMywtMz
+IwOTg4ODE4LDI0NTc1NzkzNCwtMTMxODcyMjc1NiwtMTUwNjIw
+MTY3MCwtMTIwOTczNzEyOCwtMTgyNzg0OTk0MiwxMDgwOTI2Nj
+csMTE3ODkyMjQ5OF19
 -->
