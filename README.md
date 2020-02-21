@@ -19,7 +19,7 @@ Namun dia tidak dapat menyelesaikan tugas tersebut. Laporan yang diminta berupa 
 a. Tentukan wilayah bagian (region) mana yang memiliki keuntungan (profit) paling sedikit
 <p></p>
 b. Tampilkan 2 negara bagian (state) yang memiliki keuntungan (profit) paling sedikit berdasarkan hasil poin a
-
+<p></p>
 c. Tampilkan 10 produk (product name) yang memiliki keuntungan (profit) paling sedikit berdasarkan 2 negara bagian (state) hasil poin b Whits memohon kepada kalian yang sudah jago mengolah data untuk mengerjakanlaporan tersebut.
 </justify>
 
@@ -164,7 +164,7 @@ ekstensi ".log.bak"​ .
 
 	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODI5Mzc5MiwtMzIwOTg4ODE4LDI0NT
+eyJoaXN0b3J5IjpbMTA5Njc3NDEwMywtMzIwOTg4ODE4LDI0NT
 c1NzkzNCwtMTMxODcyMjc1NiwtMTUwNjIwMTY3MCwtMTIwOTcz
 NzEyOCwtMTgyNzg0OTk0MiwxMDgwOTI2NjcsMTE3ODkyMjQ5OF
 19
