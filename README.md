@@ -10,12 +10,22 @@
 	 * soal3.sh
 	 * soal3_duplicate.sh
 
-
+1. Whits adalah seorang mahasiswa teknik informatika. Dia mendapatkan tugas praktikum
+untuk membuat laporan berdasarkan data yang ada pada file “Sample-Superstore.tsv”.
+Namun dia tidak dapat menyelesaikan tugas tersebut. Laporan yang diminta berupa :
+a. Tentukan wilayah bagian (region) mana yang memiliki keuntungan (profit) paling
+sedikit
+b. Tampilkan 2 negara bagian (state) yang memiliki keuntungan (profit) paling
+sedikit berdasarkan hasil poin a
+c. Tampilkan 10 produk (product name) yang memiliki keuntungan (profit) paling
+sedikit berdasarkan 2 negara bagian (state) hasil poin b
+Whits memohon kepada kalian yang sudah jago mengolah data untuk mengerjakan
+laporan tersebut.
 
  
 
 	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgzOTYxNDc4LC0xMjA5NzM3MTI4LC0xOD
+eyJoaXN0b3J5IjpbMjUwNDA5OTYwLC0xMjA5NzM3MTI4LC0xOD
 I3ODQ5OTQyLDEwODA5MjY2NywxMTc4OTIyNDk4XX0=
 -->
