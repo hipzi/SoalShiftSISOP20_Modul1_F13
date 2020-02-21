@@ -15,7 +15,7 @@
 1. Whits adalah seorang mahasiswa teknik informatika. Dia mendapatkan tugas praktikum
 untuk membuat laporan berdasarkan data yang ada pada file “Sample-Superstore.tsv”.
 Namun dia tidak dapat menyelesaikan tugas tersebut. Laporan yang diminta berupa :
-
+<p></p>
 a. Tentukan wilayah bagian (region) mana yang memiliki keuntungan (profit) paling sedikit
 
 b. Tampilkan 2 negara bagian (state) yang memiliki keuntungan (profit) paling sedikit berdasarkan hasil poin a
@@ -106,7 +106,7 @@ ekstensi ".log.bak"​ .
 
 	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyOTQxODYzMywyNDU3NTc5MzQsLTEzMT
+eyJoaXN0b3J5IjpbLTMyMDk4ODgxOCwyNDU3NTc5MzQsLTEzMT
 g3MjI3NTYsLTE1MDYyMDE2NzAsLTEyMDk3MzcxMjgsLTE4Mjc4
 NDk5NDIsMTA4MDkyNjY3LDExNzg5MjI0OThdfQ==
 -->
