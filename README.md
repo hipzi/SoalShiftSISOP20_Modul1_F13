@@ -207,20 +207,20 @@ ekstensi ".log.bak"​ .
 	#!/bin/bash
 
 	mapfile ori < <(awk -F '_' '{
-		if (NR%2==1)
-	{
-	print $2
-	}
+		if (NR%2==1) {
+			print $2
+		}
+	}' location.log)
+<p></p>
 
-}' location.log)
 
  
 
 	 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNjY5MDUwMSwtMTY1NzI1NTYxMywtMT
-UxMjYzNjIzMCwtMTc5MjcxNTYzNiwxMDk2Nzc0MTAzLC0zMjA5
-ODg4MTgsMjQ1NzU3OTM0LC0xMzE4NzIyNzU2LC0xNTA2MjAxNj
-cwLC0xMjA5NzM3MTI4LC0xODI3ODQ5OTQyLDEwODA5MjY2Nywx
-MTc4OTIyNDk4XX0=
+eyJoaXN0b3J5IjpbMjcxOTQ5MTYyLC02MzY2OTA1MDEsLTE2NT
+cyNTU2MTMsLTE1MTI2MzYyMzAsLTE3OTI3MTU2MzYsMTA5Njc3
+NDEwMywtMzIwOTg4ODE4LDI0NTc1NzkzNCwtMTMxODcyMjc1Ni
+wtMTUwNjIwMTY3MCwtMTIwOTczNzEyOCwtMTgyNzg0OTk0Miwx
+MDgwOTI2NjcsMTE3ODkyMjQ5OF19
 -->
