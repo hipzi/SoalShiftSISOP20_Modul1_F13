@@ -1,8 +1,7 @@
 #!/bin/bash
 
 filename=$1
-
-id=$(awk 'NR==2 {print $1}' $filename)
+id=$(stat -c %w $filename | awk -F ":" '{print $1}' | tail -c 2)
 
 stop=${#filename}
 encrypt=`expr $stop - 4`
@@ -13,11 +12,9 @@ kecil=abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
 noekstensi=${filename:0:$encrypt}
 echo $noekstensi
 
-if [[ "$filename" =~ [a-z] ]]
+if [[ "$filename" =~ [a-zA-Z] ]]
 then
-	newfilename=$(echo $noekstensi | tr "${kecil:0:26}" "${kecil:${id}:26}")
-else
-	newfilename=$(echo $noekstensi | tr "${kapital:0:26}" "${kapital:${id}:26}")
+	newfilename=$(echo $noekstensi | tr "${kapital:0:26}${kecil:0:26}" "${kapital:${id}:26}${kecil:${id}:26}")
 fi
 
 echo $newfilename
